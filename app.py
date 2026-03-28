@@ -22,7 +22,7 @@ from tkinter import font
 # UINPUT - DISPOSITIVO DE TECLADO REAL
 # =========================================================
 
-# Nota: intento crear el device con las teclas que usas.
+# Nota: Device con las teclas que usas.
 device = uinput.Device([
     uinput.KEY_A, uinput.KEY_B, uinput.KEY_C, uinput.KEY_D,
     uinput.KEY_E, uinput.KEY_F, uinput.KEY_G, uinput.KEY_H,
@@ -113,7 +113,7 @@ def hold_key(key, estado):
                 teclas_presionadas[key] = True
                 print(f"hold_key DOWN -> {key} (prev {prev})")
 
-                # 🔥 IMPORTANTE: enviar PRESIONAR
+                #IMPORTANTE: enviar PRESIONAR
                 try:
                     device.emit(key, 1)
                 except:
@@ -123,7 +123,7 @@ def hold_key(key, estado):
                 teclas_presionadas[key] = False
                 print(f"hold_key UP -> {key} (prev {prev})")
 
-                # 🔥 IMPORTANTE: enviar SOLTAR solo si estaba presionada
+                #IMPORTANTE: enviar SOLTAR solo si estaba presionada
                 if prev:
                     try:
                         device.emit(key, 0)
@@ -142,7 +142,7 @@ def repetir_teclas():
 
         for key in activas:
             try:
-                # 🔥 Emitir repetición (EV_REPEAT)
+                #Emitir repetición (EV_REPEAT)
                 device.emit(key, 2)
             except:
                 pass
