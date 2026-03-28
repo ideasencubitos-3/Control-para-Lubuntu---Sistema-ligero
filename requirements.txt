@@ -1,0 +1,6 @@
+flask
+flask-cors
+python-uinput
+pillow
+qrcode
+pyperclip
