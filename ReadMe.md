@@ -5,13 +5,13 @@ El nombre Jinkani proviene del dialecto tarasco de la meseta purépecha en Micho
 
 Por ello, el nombre simboliza algo importante: así como el fuego requiere respeto y cuidado para ser controlado, este sistema busca ofrecer un control eficiente y responsable del equipo.
 
-La forma fácil es usando install.sh 
+La forma fácil de instalar es usando install.sh 
 
 	chmod +x install.sh
 	./install.sh
 	
 Después, pasar al punto 9 para ejecutar la aplicación.
-La forma compleja es seguir los pasos del 1 al 9.
+La forma compleja de instalar es seguir los pasos del 1 al 9.
 
 1.INSTALACIÓN DEL SISTEMA
 
