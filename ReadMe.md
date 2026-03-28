@@ -1,3 +1,9 @@
+Jinkani
+Es un control para el sistema operativo Lubuntu, diseñado para dar un segundo uso a computadoras con pocos recursos.
+
+El nombre Jinkani proviene del dialecto tarasco de la meseta purépecha en Michoacán, y significa “fuego”. En esta cultura, el fuego es un elemento fundamental: se utiliza para cocinar y como punto de reunión familiar, además de brindar calor en la sierra.
+
+Por ello, el nombre simboliza algo importante: así como el fuego requiere respeto y cuidado para ser controlado, este sistema busca ofrecer un control eficiente y responsable del equipo.
 
 La forma fácil es usando install.sh 
 
