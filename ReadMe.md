@@ -1,4 +1,4 @@
-/***
+
 La forma fácil es usando install.sh 
 
 	chmod +x install.sh
@@ -6,7 +6,7 @@ La forma fácil es usando install.sh
 	
 Después, pasar al punto 9 para ejecutar la aplicación.
 La forma compleja es seguir los pasos del 1 al 9.
-/***
+
 1.INSTALACIÓN DEL SISTEMA
 
 	sudo apt install python3-pip python3-venv python3-evdev python3-tk -y
